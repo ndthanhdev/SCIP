@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCIPClient", "SCIPclient\SCIPClient.csproj", "{F103602C-5D6B-439A-B120-DCD6111F5014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testNotification", "testNotification\testNotification.csproj", "{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scipService", "scipService\scipService.csproj", "{209FA716-A7AD-4095-BD70-C8710FC66FA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|ARM.Build.0 = Debug|ARM
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|x64.ActiveCfg = Debug|x64
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|x64.Build.0 = Debug|x64
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|x64.Deploy.0 = Debug|x64
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|x86.ActiveCfg = Debug|x86
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|x86.Build.0 = Debug|x86
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Debug|x86.Deploy.0 = Debug|x86
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|Any CPU.ActiveCfg = Release|x86
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|ARM.ActiveCfg = Release|ARM
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|ARM.Build.0 = Release|ARM
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|ARM.Deploy.0 = Release|ARM
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|x64.ActiveCfg = Release|x64
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|x64.Build.0 = Release|x64
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|x64.Deploy.0 = Release|x64
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|x86.ActiveCfg = Release|x86
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|x86.Build.0 = Release|x86
+		{F103602C-5D6B-439A-B120-DCD6111F5014}.Release|x86.Deploy.0 = Release|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|ARM.Build.0 = Debug|ARM
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|x64.ActiveCfg = Debug|x64
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|x64.Build.0 = Debug|x64
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|x64.Deploy.0 = Debug|x64
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|x86.ActiveCfg = Debug|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|x86.Build.0 = Debug|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Debug|x86.Deploy.0 = Debug|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|Any CPU.ActiveCfg = Release|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|ARM.ActiveCfg = Release|ARM
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|ARM.Build.0 = Release|ARM
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|ARM.Deploy.0 = Release|ARM
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|x64.ActiveCfg = Release|x64
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|x64.Build.0 = Release|x64
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|x64.Deploy.0 = Release|x64
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|x86.ActiveCfg = Release|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|x86.Build.0 = Release|x86
+		{E880BF83-7D5F-4CCA-955D-8BB8BAC6C2F9}.Release|x86.Deploy.0 = Release|x86
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|ARM.Build.0 = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|x64.Build.0 = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|x86.Build.0 = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|ARM.ActiveCfg = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|ARM.Build.0 = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|x64.ActiveCfg = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|x64.Build.0 = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|x86.ActiveCfg = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://thanhgola.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SCIPclient\\SCIPClient.csproj
+		SccProjectName1 = SCIPclient
+		SccLocalPath1 = SCIPclient
+		SccProjectUniqueName2 = testNotification\\testNotification.csproj
+		SccProjectName2 = testNotification
+		SccLocalPath2 = testNotification
+		SccProjectUniqueName3 = scipService\\scipService.csproj
+		SccProjectName3 = scipService
+		SccLocalPath3 = scipService
+	EndGlobalSection
+EndGlobal
